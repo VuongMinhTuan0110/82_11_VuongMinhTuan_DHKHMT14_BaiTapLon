@@ -1,0 +1,302 @@
+﻿* {
+    padding: 0px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+#header{
+    border-bottom:solid 2px #c0c0c0;
+    padding:20px 0px 0px 0px;
+    height:100px;
+    
+
+}
+#header img {
+    width: 280px;
+    height: 75px;
+    text-align:left;
+    padding-top:0px;
+}
+#iconheader{
+    font-size: 25px;
+    color: #00ffff;
+}
+#header td{
+    padding:0px 0px 0px 15px
+}
+#header table{
+    margin-left:10px;
+    padding:0px 10px 0px 10px
+}
+#header .hang2{
+    margin:0px 40px 0px 40px;
+}
+
+
+
+#nav {
+    background-color: #042331;
+    margin-top: 10px;
+    font-size: 16px;
+    height:100%;
+    margin:10px 0px 0px 0px;
+    padding:0px;
+}
+#nav .navb .glyphicon{/*icon mũi tên canh qua bên phải sát vào hàng*/
+    left:70px
+}
+#nav header{
+    background:#063146
+}
+#nav header .danhmuc{
+    color:#ffffff;
+    text-align:center;
+    line-height:50px;
+    user-select:none;
+    text-decoration:none;
+    margin-left:40px
+}
+#nav .navb{
+    list-style:none
+}
+#nav .navb >li{
+    position:relative;
+    line-height:50px
+}
+#nav .navb >li >a{
+    text-decoration:none;
+    color:#ffffff;
+    display:block;
+    text-align:center;
+    border-top:1px solid rgba(225,225,225,.1);
+    border-bottom:1px solid #000000;
+    transition:.4s
+}
+#nav .navb >li >a:hover{
+    padding-left:20px;
+    background:#ffffff;
+    color:#000000;
+    transition:ease-in 0.35s;
+    -moz-transition:ease-in 0.35s;
+    -webkit-transition:ease-in 0.35s;
+}
+
+#nav .hang1{
+    position:absolute;
+    left:292px;
+    top:0px;
+    width:170px;
+    height:100%;
+    display:none;/*ẩn menu 2 đi*/
+    z-index:999
+}
+.hang1 li {
+    list-style: none;
+    background: #063146;
+    border-top: 1px solid rgba(225,225,225,.1);
+    border-bottom: 1px solid #000000;
+    line-height:40px;
+    transition:.4s
+}
+.hang1 li a{
+    text-decoration:none;
+    color:#ffffff;/*chữ màu trắng*/
+    text-align:center;
+    padding-left:20px;
+    
+}
+#nav .navb >li:hover .hang1{
+    display:block;/*hiện menu 2 lên*/
+    color:#000000;
+}
+
+.hang1 li a:hover { /*sự kiện trong hang2*/ 
+    transition: ease-in 0.35s;
+    -moz-transition: ease-in 0.35s;
+    -webkit-transition: ease-in 0.35s;
+    background: #ffffff;
+    color:#000000;
+    display:block
+}
+.nav2 > li>a{
+    text-decoration:none;
+    color:#ffffff;
+    line-height:50px; /*cho menu nằm ra giữa*/
+    font-size:16px;
+    display:block;
+    padding:0px 50px 0px 50px
+}
+.nav2 > li > a:hover{/*sự kiện trong a*/
+    background:#ffffff;
+    color:#000000;
+    transition:ease-in 0.40s;
+    -moz-transition:ease-in 0.40s;
+    -webkit-transition:ease-in 0.40s;
+    
+}
+
+.nav2 > li>a{
+    text-decoration:none;
+    color:#ffffff;
+    line-height:50px; /*cho menu nằm ra giữa*/
+    font-size:16px;
+    display:block;
+    padding:0px 50px 0px 50px
+}
+.nav2 > li > a:hover{/*sự kiện trong a*/
+    background:#ffffff;
+    color:#000000;
+    transition:ease-in 0.40s;
+    -moz-transition:ease-in 0.40s;
+    -webkit-transition:ease-in 0.40s;
+    padding-left:-40px
+}
+
+
+
+#section {
+    margin: 10px 0px 0px 0px;
+    padding: 0px
+}
+#section #hang2 {
+    background: #063146;
+    height: 50px;
+}
+#section .nav2 >li{
+   list-style:none;/*loại bỏ dấu chấm trước menu*/
+   float:left; /*các menu nằm ngang hàng nhau*/
+}
+#section #quangcao { /*hình quảng cáo*/
+    margin: 10px 0px 0px 10px;
+    padding: 0px;
+    border: 1px solid rgba(225,225,225,.1);
+    border: 1px solid #b6ff00;
+}
+
+
+
+#nav2 {
+    padding:0px;
+    margin:10px 0px 0px 0px;
+    font-size:16px;
+}
+#nav2 .review{
+    border:1px solid #000000;
+    margin:20px 0px 0px 0px;
+    border: 1px solid rgba(225,225,225,.1);
+}
+#nav2 .review table{
+    margin:0px;
+    padding:0px;
+    width:100%
+}
+#nav2 .review table th{
+    background:#042331;
+    text-align:center;
+    color:#ffffff;
+    height:40px;
+    padding:0px
+}
+#nav2 .review table td{
+    background:#063146;
+    color:#ffffff;
+    height:35px;
+    text-align:center;
+    border-top:1px solid #000000
+}
+
+
+#nav2 .tintuc{
+    margin:20px 0px 0px 0px;
+    border:1px solid #000000;
+     border: 1px solid rgba(225,225,225,.1);
+}
+#nav2 .tintuc table th{
+    background:#042331;
+    text-align:center;
+    color:#ffffff;
+    height:40px;
+    padding:0px
+    
+}
+#nav2 .tintuc table td{
+    background:#063146;
+    height:35px;
+    text-align:center;
+    border-top:1px solid #000000;
+}
+.tintuc table td a{
+    text-decoration:none;
+    color:#ffffff
+}
+
+
+
+#sanpham{
+    margin:10px 0px 0px 0px
+}
+#sanpham .giay h4{
+    border-bottom:2px solid lightslategrey;
+}
+.giay b {
+    border-radius: 1px 8px 1px 1px;
+    background-color: #063146;
+    color: white;
+    font-size: 20px;
+}
+.giay td{
+    width:200px;
+    padding:4px;
+}
+.giay td a{
+    text-decoration:none;
+    color:#ff0000; 
+}
+.giay img{
+    width:274px;
+    height:200px
+}
+
+#footer{
+    background:#000000;
+    color:#ffffff
+}
+#footer #b2 ul li {
+    list-style:none;
+}
+#b2 li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer #b3 ul li {
+    list-style: none;
+}
+#b3 li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Phần TIN TUC*/
+#tintuc ul{
+    margin-left:15px;
+    padding-left:15px
+}
+#tintuc .hinhtintuc{
+    text-align:center;
+    padding-left:20px;
+    margin-left:150px
+}
+
+/*Phần thông tin giày Giày Adiadas Super Star*/
+#chitiet1 {
+    padding-top:10px
+}
+
+/*Phần review1*/
+#nab .review{
+    margin-top:10px
+}
+#nab #video h3{
+    text-align:center;
+    padding-left:50px
+}
